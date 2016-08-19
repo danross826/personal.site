@@ -1,0 +1,24 @@
+body{
+	background-image: url('../IMG/abstract-cloudy-sky-textures-4.jpg');
+}
+
+.days	{
+	border: 10px solid black;
+}
+
+#map-canvas {
+    width: 770px;
+    height: 481px;
+}
+#visTitle{
+	text-decoration: underline;
+}
+.days{
+	background-image: url('../movies/giphy.gif');
+	background-size: cover;
+	color: #00bfff;
+}
+#directions{
+	position: relative;
+	left: -3em;
+}
