@@ -6,12 +6,39 @@
     font-family: moria;
     src: url(/fonts/moriacitadel.ttf);
 }
+@font-face {
+    font-family: ringbearer;
+    src: url(/fonts/ringbearer.ttf);
+}
+a{
+    display: block;
+    color: black;
+}
 
 body{
     background-color:red;
 }
 div{
     background-color: white;
+}
+h4{
+    text-align: center;
+    font-family: 'ringbearer';
+}
+.blackBackground{
+    background-color: black;
+    color: white;
+}
+.border{
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+}
+.company{
+    background-color: black;
+    color: white;
+    font-decoration: bold;
+    max-width: 15em;
 }
 .darker{
     border-color:black;
@@ -38,22 +65,34 @@ div{
     font-family: "Times New Roman";
     padding-right: 155px;
 }
+.noBottomMargin{
+    margin-bottom: 0px;
+}
+.noTopMargin{
+    margin-top: 0px;
+}
+.projects{
+    text-align: center;
+    border-width: 1px;
+    background-color: white;
+}
 #chara{
     background-color: white;
     font-family: 'moria';
     text-decoration: underline;
 }
-#characterTitle{
-    text-align: center;
-    font-family: moria;
-}
 #charaTwo{
     position: relative;
-    height: 90px;
-    width: 100%;
+    max-height: 90px;
+    max-width: 100%;
     text-align: center;
-    font-family: moria;
+    font-family: 'moria';
     right: 1em;
+}
+#formerEmployers{
+    text-align: center;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
 }
 #name{
 padding-right: 105px;
@@ -61,43 +100,59 @@ padding-right: 105px;
 
 #rpg{
     font-family: 'barbarian';
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     font-size: 4em;
     margin-right: 1em;
+}
+#secondaryStats{
+    max-width: 100%;
 }
 #definition{
     position: relative;
     text-align: center;
     left: 1em;
     font-family: Copperplate;
-    width: 100%;
+    max-width: 100%;
 }
 #gridcontainer{
     display:grid;
 }
 #logo{
     margin-left: 1em;
-    height: 8em;
-    width: 10em;
+    max-height: 8em;
+    max-width: 10em;
 }
 #phone{
     padding-right: 125px;
 }
 #portrait{
-    background-color: black;
-    border: solid;
-    border-color: black;
-    border-width: 5px;
+    margin-top: 10px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 235px;
-    width: 235px;
+    max-height: 300px;
+    max-width: 300px;
+}
+#projectDiv{
+    background-color: black;
 }
 #portraitImg{
-    height: 100%;
-    width: 90%;
+    position: relative;
+    max-height: 100%;
+    max-width: 90%;
+    top: -6px;
 }
+#projectTitle {
+    background-color: black;
+    color: white;
+    max-width: 100%;
+    margin: 0px;
+}
+#skillsList{
+    padding-right: 35px;
+
+}
+
