@@ -1,0 +1,103 @@
+@font-face {
+    font-family: barbarian;
+    src: url(/fonts/barbarian.ttf);
+}
+@font-face {
+    font-family: moria;
+    src: url(/fonts/moriacitadel.ttf);
+}
+
+body{
+    background-color:red;
+}
+div{
+    background-color: white;
+}
+.darker{
+    border-color:black;
+    border: 5px;
+    border: solid;
+}
+.filled-in{
+    margin-bottom: 0px;
+    color: black;
+    font-size: 12px;
+}
+.language{
+    background-color: black;
+    color: white;
+    font-decoration: bold;
+}
+.label{
+    border-top: solid;
+    border-top-color: black;
+    border-top-width: 2px;
+    color: black;
+    text-align: left;
+    font-size: 10px;
+    font-family: "Times New Roman";
+    padding-right: 155px;
+}
+#chara{
+    background-color: white;
+    font-family: 'moria';
+    text-decoration: underline;
+}
+#characterTitle{
+    text-align: center;
+    font-family: moria;
+}
+#charaTwo{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    font-family: moria;
+    right: 1em;
+}
+#name{
+padding-right: 105px;
+}
+
+#rpg{
+    font-family: 'barbarian';
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    margin-right: 1em;
+}
+#definition{
+    position: relative;
+    text-align: center;
+    left: 1em;
+    font-family: Copperplate;
+    width: 100%;
+}
+#gridcontainer{
+    display:grid;
+}
+#logo{
+    margin-left: 1em;
+    height: 8em;
+    width: 10em;
+}
+#phone{
+    padding-right: 125px;
+}
+#portrait{
+    background-color: black;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 235px;
+    width: 235px;
+}
+#portraitImg{
+    height: 100%;
+    width: 90%;
+}

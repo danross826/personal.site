@@ -1,5 +1,5 @@
 div.intro-body{
-background: url(../IMG/mulledwine.jpg);
+background-color: aqua;
 background-size: 100%;
 background-repeat: no-repeat;
 }
@@ -7,10 +7,12 @@ background-repeat: no-repeat;
 	font-size: 50px;
 }
 h1{
-	color: #231931;
+	color: #CB5C63;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 p.intro-text{
 	color: #DDD2CA;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .container{
@@ -59,5 +61,13 @@ video#bigvid{
 	width:11em;
 	height: 9em;
 }
+#panel1{
+	background-color: black;
+}
+#panel1{
+	background-color: red;
+}
+#panel1{
+	background-color: yellow;
 }
 
