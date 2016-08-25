@@ -1,0 +1,36 @@
+@font-face {
+    font-family: argosgeorge;
+    src: url(/fonts/argosgeorge.ttf);
+}
+@font-face {
+    font-family: annstone;
+    src: url(/fonts/annstone.ttf);
+}
+@font-face {
+    font-family: lohengrin;
+    src: url(/fonts/lohengrin.ttf);
+}
+.annstonefont{
+    font-family: annstone;
+    font-size: 50px;
+}
+.argosgeorge{
+    font-family: argosgeorge;
+}
+
+.fontTwenty{
+    font-size: 20px;
+}
+.fontEighteen {
+    font-size: 18px;
+}
+.lohengrinFont{
+    font-family: lohengrin;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#intro{
+    background-image: url("/IMG/bodiam_castle.jpg");
+    background-size: cover;
+}
