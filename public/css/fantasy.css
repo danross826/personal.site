@@ -10,6 +10,10 @@
     font-family: lohengrin;
     src: url(/fonts/lohengrin.ttf);
 }
+@font-face {
+    font-family: fenwickWoodType;
+    src: url("/fonts/FenwickWoodtype.ttf");
+}
 .annstonefont{
     font-family: annstone;
     font-size: 50px;
@@ -17,20 +21,46 @@
 .argosgeorge{
     font-family: argosgeorge;
 }
-
+.fenwickWoodTypeFont{
+    font-family: fenwickWoodType;
+}
 .fontTwenty{
     font-size: 20px;
 }
 .fontEighteen {
     font-size: 18px;
 }
+.navbar-default .navbar-brand{
+    color: #DCEDFF;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #DCEDFF;
+}
 .lohengrinFont{
     font-family: lohengrin;
-    font-size: 50px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    font-size: 30px;
+}
+.sectionTitle{
+    visibility: hidden;
+}
+#about{
+    background-color: #D9C9D8;
+}
+#contact{
+    background-color: #94B0DA;
 }
 #intro{
-    background-image: url("/IMG/bodiam_castle.jpg");
+    background-image: url("/IMG/dice.jpg");
     background-size: cover;
+}
+#mainTitle{
+    font-size: 50px;
+    text-decoration: underline;
+}
+#navbar{
+    background-color: #7B5A4C;
+
+}
+#services{
+    background-color: #DCEDFF;
 }

@@ -9,10 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full Stack Game Master</title>
+    <title>Full Stack DM (Development Master)</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -34,7 +37,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -43,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll argosgeorge fontTwenty" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll argosgeorge fontTwenty lavender" href="#page-top">Start Bootstrap</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,13 +57,13 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll argosgeorge fontEighteen" href="#about">About</a>
+                        <a class="page-scroll argosgeorge fontEighteen lavender" href="#about">About Me</a>
                     </li>
                     <li>
-                        <a class="page-scroll argosgeorge fontEighteen" href="#services">Services</a>
+                        <a class="page-scroll argosgeorge fontEighteen lavender" href="#services">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll argosgeorge fontEighteen" href="#contact">Contact</a>
+                        <a class="page-scroll argosgeorge fontEighteen lavender" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -75,9 +78,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div>
-                        <h1 class="lohengrinFont">Full Stack Adventurer</h1>
+                        <h1 class="fenwickWoodTypeFont" id="mainTitle">Full Stack DM (Development Master)</h1>
                     </div>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
                 </div>
             </div>
         </div>
@@ -88,18 +90,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Section</h1>
+                    <h1 class="lohengrinFont" id="aboutMeHeader">About Me</h1>
+                    <div class="col-lg-6" id="aboutMeOne">
+
+                    </div>
+                    <div class="col-lg-6" id="aboutMeTwo">
+
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Projects/Services Section -->
     <section id="services" class="services-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Services Section</h1>
+                    <h1 class="animated sectionTitle lohengrinFont">Projects</h1>
                 </div>
             </div>
         </div>
@@ -110,7 +118,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                    <h1 class="animated sectionTitle lohengrinFont">Contact Me</h1>
+
+                        <a href="mailto:danross826@gmail.com"><img src="IMG/logo_gmail_32px.png"></a>
+                        <a href="https://github.com/danross826"><img src="IMG/GitHub-Mark-32px.png"></a></li>
+
                 </div>
             </div>
         </div>
@@ -125,6 +137,9 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+    <!--Custom Javascript-->
+    <script src="js/fantasy.js"></script>
 
 </body>
 
