@@ -123,21 +123,6 @@ $('#map-canvas').one("click",function(){
         humidity(data);
         wind(data);
         pressure(data);
-        for (var i =0; i <= 2; i++) {
-            var weatherList=data.list[i].weather[0].id;
-           if (200<=weatherList&&weatherList<=232) {
-            $('#day'+(i+1)).css('background-image','url("../movies/thunderstorm.gif")')
-           }if (300<=weatherList&&weatherList<=321) {
-            $('#day'+(i+1)).css('background-image','url("../movies/drizzle.gif")')
-           }if (500<=weatherList&&weatherList<=531) {
-            $('#day'+(i+1)).css('background-image','url("../movies/rainumbrella.gif")')
-           }if (600<=weatherList&&weatherList<=622) {
-            $('#day'+(i+1)).css('background-image','url("../movies/snowing.gif")')
-           }if (701<=weatherList&&weatherList<=781) {
-            $('#day'+(i+1)).css('background-image','url("../movies/mist.gif")')
-        };
-    };
-
 
     }).fail(function (xhr,err,msg) {
         alert('Something went wrong!')

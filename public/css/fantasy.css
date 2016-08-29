@@ -46,6 +46,10 @@
 #about{
     background-color: #D9C9D8;
 }
+#aboutMePic{
+    height: 25em;
+    width: 30em;
+}
 #contact{
     background-color: #94B0DA;
 }
@@ -60,6 +64,10 @@
 #navbar{
     background-color: #7B5A4C;
 
+}
+#projectImage{
+    height: 20em;
+    width: 20em;
 }
 #services{
     background-color: #DCEDFF;

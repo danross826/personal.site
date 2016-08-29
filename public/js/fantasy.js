@@ -1,7 +1,6 @@
 // $(document).ready( function() {
     'use strict'
 
-alert("success");
     $(window).scroll(function() {
         console.log('in scroll');
         $('.sectionTitle').each(function(){
@@ -11,12 +10,17 @@ alert("success");
             if (imagePos < topOfWindow+600) {
                 $(this).css("visibility", "visible");
                 $(this).addClass("rotateIn")
-                console.log('in if statement');
             }
         });
     });
 
+setInterval(function(){
+    $('#projectImage').attr('src','IMG/bodiam_castle.jpg')
+    }, 3000);
 
+setInterval(function(){
+    $('#projectImage').attr('src','IMG/$_32.jpeg')
+}, 6000);
 
 
 // });
