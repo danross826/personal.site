@@ -34,7 +34,7 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload = "startTimer()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll argosgeorge fontTwenty lavender" href="#page-top">Start Bootstrap</a>
+                <!--<a class="navbar-brand page-scroll argosgeorge fontTwenty lavender" href="#page-top">Start Bootstrap</a>-->
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -93,10 +93,10 @@
                     <h1 class="animated lohengrinFont sectionTitle">About Me</h1>
                 </div>
                     <div class="row">
-                       <div class="col-lg-6">
+                       <div class="animated enterLeft col-lg-6">
                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
                        </div>
-                       <div class="col-lg-6">
+                       <div class="animated enterRight col-lg-6">
                         <img id="aboutMePic" src="IMG/placeholderpicture.jpg">
                        </div>
                     </div>
@@ -111,8 +111,17 @@
                 <div class="col-lg-12">
                     <h1 class="animated sectionTitle lohengrinFont">Projects</h1>
                 </div>
-                <div class="col-lg-12">
-                    <img id="projectImage" src="IMG/$_32.jpeg">
+                <div class="row">
+                    <div class="animated enterLeft col-lg-6">
+                        <ul>
+                            <li><a>Java Script Calculator</a></li>
+                            <li><a>Weather Map</a></li>
+                            <li><a>Four Element Simon</a></li>
+                        </ul>
+                    </div>
+                    <div class="animated enterRight col-lg-6">
+                        <img id="projectImage" src="IMG/avatarscreenshotthree.png">
+                    </div>
                 </div>
             </div>
         </div>
