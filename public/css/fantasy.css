@@ -14,12 +14,23 @@
     font-family: fenwickWoodType;
     src: url("/fonts/FenwickWoodtype.ttf");
 }
+@font-face {
+    font-family: goudyMediaevalReg;
+    src: url("/fonts/GoudyMediaeval-Regular.ttf");
+}
+@font-face {
+    font-family: gingerBread;
+    src: url("/fonts/gingerbread.ttf");
+}
 .annstonefont{
     font-family: annstone;
     font-size: 50px;
 }
 .argosgeorge{
     font-family: argosgeorge;
+}
+.enterBottom{
+    visibility: hidden;
 }
 .fenwickWoodTypeFont{
     font-family: fenwickWoodType;
@@ -30,11 +41,20 @@
 .fontEighteen {
     font-size: 18px;
 }
+.gingerbreadFont{
+    font-family: gingerBread;
+}
+.goudyFont{
+    font-family: goudyMediaevalReg;
+}
+.imageFrameOne{
+    border:10px outset darkgoldenrod;
+}
 .navbar-default .navbar-brand{
-    color: #DCEDFF;
+    color: darkgoldenrod;
 }
 .navbar-default .navbar-nav>li>a{
-    color: #DCEDFF;
+    color: darkgoldenrod;
 }
 .lohengrinFont{
     font-family: lohengrin;
@@ -42,27 +62,37 @@
 }
 .sectionTitle{
     visibility: hidden;
+    color: darkgoldenrod;
 }
 #about{
-    background-color: #D9C9D8;
+    background-color: #230007;
+}
+#aboutMeParagraph{
+    color: darkgoldenrod;
+    position: relative;
+    text-align: center;
+    font-size: 1em;
 }
 #aboutMePic{
     height: 25em;
     width: 30em;
 }
 #contact{
-    background-color: #94B0DA;
+    background-color: #A44200;
 }
 #intro{
-    background-image: url("/IMG/dice.jpg");
+    background-image: url("/IMG/d20.jpg");
     background-size: cover;
 }
 #mainTitle{
+    color: darkgoldenrod;
+    display: inline-block;
     font-size: 50px;
     text-decoration: underline;
+    background-color: #230007;
 }
 #navbar{
-    background-color: #7B5A4C;
+    background-color: #230007;
 
 }
 #projectImage{
@@ -70,5 +100,5 @@
     width: 25em;
 }
 #services{
-    background-color: #DCEDFF;
+    background-color: #69140E;
 }
