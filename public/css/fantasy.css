@@ -29,7 +29,16 @@
 .argosgeorge{
     font-family: argosgeorge;
 }
+.darkGRText{
+    color: darkgoldenrod;
+}
 .enterBottom{
+    visibility: hidden;
+}
+.enterLeft{
+    visibility: hidden;
+}
+.enterRight{
     visibility: hidden;
 }
 .fenwickWoodTypeFont{
@@ -71,7 +80,7 @@
     color: darkgoldenrod;
     position: relative;
     text-align: center;
-    font-size: 1em;
+    font-size: 25px;
 }
 #aboutMePic{
     height: 25em;
@@ -80,6 +89,38 @@
 #contact{
     background-color: #A44200;
 }
+#contactHex {
+    width: 100px;
+    height: 55px;
+    background: darkgoldenrod;
+    position: relative;
+    left: 37em;
+    top: 2em;
+    visibility: hidden;
+}
+#contactHex:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid darkgoldenrod;
+}
+#contactHex:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid darkgoldenrod;
+}
+
 #intro{
     background-image: url("/IMG/d20.jpg");
     background-size: cover;
