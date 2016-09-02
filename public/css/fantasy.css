@@ -83,18 +83,18 @@
     font-size: 25px;
 }
 #aboutMePic{
-    height: 25em;
-    width: 30em;
+    min-height: 25em;
+    min-width: 30em;
 }
 #contact{
     background-color: #A44200;
 }
 #contactHex {
-    width: 100px;
-    height: 55px;
+    min-width: 100px;
+    min-height: 55px;
     background: darkgoldenrod;
     position: relative;
-    left: 37em;
+    left: 36em;
     top: 2em;
     visibility: hidden;
 }
@@ -103,8 +103,8 @@
     position: absolute;
     top: -25px;
     left: 0;
-    width: 0;
-    height: 0;
+    min-width: 0;
+    min-height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 25px solid darkgoldenrod;
@@ -114,8 +114,8 @@
     position: absolute;
     bottom: -25px;
     left: 0;
-    width: 0;
-    height: 0;
+    min-width: 0;
+    min-height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-top: 25px solid darkgoldenrod;
@@ -137,8 +137,8 @@
 
 }
 #projectImage{
-    height: 20em;
-    width: 25em;
+    min-height: 20em;
+    min-width: 25em;
 }
 #services{
     background-color: #69140E;
