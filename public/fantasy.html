@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Full Stack DM (Development Master)</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!--Personal CSS-->
+    <link href="css/fantasy.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload = "startTimer()">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only argosgeorge fontTwenty">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand page-scroll argosgeorge fontTwenty lavender" href="#page-top">Start Bootstrap</a>-->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll argosgeorge fontEighteen lavender" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll argosgeorge fontEighteen lavender" href="#services">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll argosgeorge fontEighteen lavender" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div>
+                        <h1 class="fenwickWoodTypeFont" id="mainTitle">Full Stack DM (Development Master)</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="animated lohengrinFont sectionTitle">About Me</h1>
+                </div>
+                    <div class="row">
+                       <div class="animated enterLeft col-xs-6">
+                           <p class="argosgeorge" id="aboutMeParagraph"><span class="gingerbreadFont">C</span>an you read this?</p>
+                       </div>
+                       <div class="animated enterRight col-xs-6">
+                        <img class="imageFrameOne" id="aboutMePic" src="IMG/placeholderpicture.jpg">
+                       </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects/Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="animated sectionTitle lohengrinFont">Projects</h1>
+                </div>
+                <div class="row">
+                    <div class="animated enterLeft col-xs-6">
+                        <ul class="darkGRText">
+                            <li><a class="darkGRText">Java Script Calculator</a></li>
+                            <li><a class="darkGRText">Weather Map</a></li>
+                            <li><a class="darkGRText">Four Element Simon</a></li>
+                        </ul>
+                    </div>
+                    <div class="animated enterRight col-xs-6">
+                        <img class="imageFrameOne" id="projectImage" src="IMG/avatarscreenshotthree.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="animated sectionTitle lohengrinFont">Contact Me</h1>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-1 col-xs-offset-5">
+                                <div id="contactContainer" class="animated enterBottom">
+                                    <div class="animated enterRoll" id="contactHex">
+                                        <a href="https://plus.google.com/u/0/114473690571050074859/about"><img src="IMG/google_plus.png"></a>
+                                        <a href="https://github.com/danross826"><img src="IMG/GitHub-Mark-32px.png"></a></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!--Custom Javascript-->
+    <script src="js/fantasy.js"></script>
+
+</body>
+
+</html>
