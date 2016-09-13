@@ -57,9 +57,7 @@ h1{
     color: #888;
 }
 .intro-body{
-    background-image: url("../IMG/dnd_minis_mat.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
 }
 .blackBorderAndText{
@@ -73,8 +71,6 @@ div.download-section{
 }
 #aboutMeParagraph{
     text-align: center;
-    position: relative;
-    top: 2em;
 }
 #projects{
 
@@ -121,4 +117,9 @@ div.download-section{
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-top: 25px solid #415A77;
+}
+#header{
+    background-image: url("../IMG/dnd_minis_mat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
