@@ -1,11 +1,30 @@
-a{
-    color: #415A77;;
+@font-face {
+    font-family: moria;
+    src: url(/fonts/moriacitadel.ttf);
 }
 body{
     background-color: #778DA9;
     color: black;
 }
-
+h1{
+    opacity: 1;
+}
+.moriaFont{
+    font-family: 'moria';
+}
+.starShipColor{
+    color: #415A77;
+}
+.starShipColorBorder{
+    border-color: #415A77;;
+}
+.whiteText{
+    opacity: 1;
+    color: white;
+}
+.whiteBorder{
+    border-color: white;
+}
 .overlayOne {
     height: 100%;
     width: 100%;
@@ -16,9 +35,90 @@ body{
     background: linear-gradient(to top, #000428 , #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.polaroid {
+    position: relative;
+    width: 220px;
+}
+
+.polaroid img {
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #777;
+    -moz-box-shadow: 3px 3px 3px #777;
+    box-shadow: 3px 3px 3px #777;
+}
+
+.polaroid p {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    font: 400 18px/1 'Kaushan Script', cursive;
+    color: #888;
+}
 .intro-body{
     background-image: url("../IMG/dnd_minis_mat.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+.blackBorderAndText{
+    color: black;
+    border-color: black;
+}
+div.download-section{
+    background-image: url("../IMG/dice.jpg");
+    height: 25em;
+    width: 100%;
+}
+#aboutMeParagraph{
+    text-align: center;
+    position: relative;
+    top: 2em;
+}
+#projects{
+
+}
+#titleHeader{
+    position: relative;
+    bottom: 8em;
+}
+#titleDiv{
+    opacity: 1;
+    position: relative;
+    top: 15em;
+}
+#wholeResumeSection{
+    position: relative;
+    bottom:20em;
+}
+#contactHex {
+    width: 100px;
+    height: 55px;
+    background: #415A77;
+    position: relative;
+    left:23em;
+
+}
+#contactHex:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #415A77;
+}
+#contactHex:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #415A77;
 }
