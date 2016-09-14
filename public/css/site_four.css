@@ -57,6 +57,9 @@ h1{
     color: #888;
 }
 .intro-body{
+    background-image: url("../IMG/dnd_minis_mat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
@@ -119,7 +122,8 @@ div.download-section{
     border-top: 25px solid #415A77;
 }
 #header{
-    background-image: url("../IMG/dnd_minis_mat.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
+}
+#introVisible{
+
 }
