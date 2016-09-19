@@ -22,6 +22,9 @@
     <!-- Theme CSS -->
     <link href="grayscale/css/grayscale.min.css" rel="stylesheet">
 
+    <!--Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet">
+
     <!--Custom CSS-->
     <link href="css/site_four.css" rel="stylesheet">
 
@@ -92,17 +95,17 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Me</h2>
+                <h2 class="animated sectionTitle">About Me</h2>
                     <div class="row">
                         <div class="col-lg-6 col-lg-offset-2">
-                            <p id="aboutMeParagraph">My name is Daniel Ross. I'm full stack developer from San Antonio, Texas.
+                            <p class="animated enterLeft" id="aboutMeParagraph">My name is Daniel Ross. I'm full stack developer from San Antonio, Texas.
                             I'm also a huge fan of Dungeons and Dragons.  The first project I ever did was a dice roller
                             application for when I forgot my dice. That, and the fact that I usually run D&D games when I'm not
                              working is what led me to come up with the name for this website. You can find my resume and contact
                                 information below.</p>
                         </div>
                         <div class="col-lg-4 polaroid">
-                            <img src="IMG/headshot.jpeg">
+                            <img class="animated enterRight" src="IMG/headshot.jpeg">
                         </div>
                     </div>
 
@@ -121,28 +124,28 @@
         <div class="container" id="wholeResumeSection">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2><span class="whiteText">View Resume</span></h2>
-                    <p class="whiteText">You can see my character resume here.</p>
-                    <a href="charactersheet.html" class="whiteText whiteBorder btn btn-default btn-lg">View Character Resume</a>
+                    <h2 class="animated sectionTitle"><span class="whiteText">View Resume</span></h2>
+                    <p class="animated enterBottom whiteText">You can see my character resume here.</p>
+                    <a href="charactersheet.html" class="animated enterBottom whiteText whiteBorder btn btn-default btn-lg">View Character Resume</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="content-section text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-lg-offset-5">
-                    <h2 id="projectsHeader">Projects</h2>
+                <div class="col-lg-3 col-lg-offset-4">
+                    <h2 class="animated sectionTitle">Projects</h2>
                     <div class="row">
-                        <div class="col-lg-12">
-                        <ul>
+                        <ul class="animated enterBottom" id="projectList">
                             <li>Javascript Calculator</li>
                             <li>Weather Map</li>
                             <li>Four Element Simon</li>
+                            <li>Adlister</li>
+                            <li>Dice Roller</li>
                         </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -151,21 +154,23 @@
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
-        <div class="row">
+        <div class="contact-section">
+            <div id="contactRow" class="row">
 
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Contact Me</h2>
-                    <p>Feel free to contact me at google or check out my github.</p>
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://github.com/danross826" class="btn btn-default btn-lg blackBorderAndText"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/u/0/114473690571050074859" class="btn btn-default btn-lg blackBorderAndText"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                        </li>
-                    </ul>
-                </div>
-             </div>
+                        <h2 class="animated sectionTitle">Contact Me</h2>
+                        <p class="animated enterBottom">Feel free to contact me at google or check out my github.</p>
+                        <ul class="list-inline banner-social-buttons">
+                            <li>
+                                <a href="https://github.com/danross826" class="animated enterLeft btn btn-default btn-lg blackBorderAndText"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/u/0/114473690571050074859" class="animated enterRight btn btn-default btn-lg blackBorderAndText"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
     </section>
 
 
@@ -190,6 +195,9 @@
 
     <!-- Theme JavaScript -->
     <script src="grayscale/js/grayscale.min.js"></script>
+
+    <!--Custom JS-->
+    <script type="text/javascript" src="js/site_four.js"></script>
 
 </body>
 

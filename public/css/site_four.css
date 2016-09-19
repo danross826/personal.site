@@ -2,12 +2,35 @@
     font-family: moria;
     src: url(/fonts/moriacitadel.ttf);
 }
+
 body{
     background-color: #778DA9;
     color: black;
 }
+
 h1{
     opacity: 1;
+}
+.btn-default:focus, .btn-default:hover {
+    border: 1px solid #415A77;
+    outline: 0;
+    color: #000;
+    background-color: #415A77;
+}
+.enterBottom{
+    visibility: hidden;
+}
+.enterLeft{
+    visibility: hidden;
+}
+.enterRight{
+    visibility: hidden;
+}
+.hoverColorOne{
+    background-color: #415A77;
+}
+.sectionTitle{
+    visibility: hidden;
 }
 .moriaFont{
     font-family: 'moria';
@@ -75,9 +98,7 @@ div.download-section{
 #aboutMeParagraph{
     text-align: center;
 }
-#projects{
 
-}
 #titleHeader{
     position: relative;
     bottom: 8em;
@@ -121,9 +142,16 @@ div.download-section{
     border-right: 50px solid transparent;
     border-top: 25px solid #415A77;
 }
-#header{
-
+#contactRow{
+    background-image: url("../IMG/diceoncharsheet.jpg");
+    margin-left: -70px;
+    margin-right: -70px;
 }
-#introVisible{
-
+#projectList{
+    text-align: left;
+    margin-left: 3em;
 }
+#projects{
+    padding-top: 0px;
+}
+
