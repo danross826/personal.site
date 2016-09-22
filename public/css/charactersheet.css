@@ -52,6 +52,7 @@ h4{
     font-decoration: bold;
 }
 .label{
+    display: block;
     border-top: solid;
     border-top-color: black;
     border-top-width: 2px;
@@ -59,7 +60,6 @@ h4{
     text-align: left;
     font-size: 10px;
     font-family: "Times New Roman";
-    padding-right: 155px;
 }
 .noBottomMargin{
     margin-bottom: 0px;
@@ -122,6 +122,7 @@ padding-right: 105px;
     margin-left: 1em;
     max-height: 8em;
     max-width: 10em;
+    visibility: hidden;
 }
 #phone{
     padding-right: 125px;
