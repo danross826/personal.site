@@ -2,6 +2,26 @@
     font-family: moria;
     src: url(/fonts/moriacitadel.ttf);
 }
+@media only screen and (max-width: 425px) {
+    .download-section{
+        width: 100%;
+    }
+    .navbar-header{
+        width: 25em;
+    }
+    #about{
+        width: 25em;
+    }
+    #contactParagraph{
+        font-size: 75%;
+    }
+    #header{
+        visibility: hidden;
+    }
+    #topContainer{
+        visibility: hidden;
+    }
+}
 
 body{
     background-color: #778DA9;
