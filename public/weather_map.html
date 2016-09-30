@@ -17,13 +17,16 @@
 </head>
 <body onload="init()">
 
-<div class="row">
+<div class="container">
 
-    <div class="col-lg-6 col-lg-offset-4" id="header">
-    <h2 id="visTitle">Three Day Weather Forecast</h2>
-    </div>
-    <div class="col-lg-6 col-lg-offset-4" id="header">
-    <p id="directions">(Click to place a marker.  You may then drag it to get the forecast for your region.)<p>
+    <div class="row">
+
+        <div class="col-lg-6 col-lg-offset-4" id="header">
+        <h2 id="visTitle">Three Day Weather Forecast</h2>
+        </div>
+        <div class="col-lg-6 col-lg-offset-4" id="header">
+        <p id="directions">(Click to place a marker.  You may then drag it to get the forecast for your region.)<p>
+        </div>
     </div>
 </div>
 
@@ -31,15 +34,15 @@
 
 
 
+<div class="container">
 
+    <div class="row">
+        <div class="col-lg-3 col-lg-offset-2">
+            <div id="map-canvas"></div>
+        </div>
 
-<div class="row">
-    <div class="col-lg-3 col-lg-offset-2">
-        <div id="map-canvas"></div>
     </div>
-
 </div>
-<div id="forecasts" class="row"></div>
 
 <!-- Load the Google Maps API [DON'T FORGET TO USE A KEY] -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpoXZNogaPeDbYmtGR489Xek2iXLcAzFc"></script>

@@ -1,0 +1,103 @@
+<html>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Dice Roller</title>
+<head>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="grayscale/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="grayscale/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="grayscale/css/grayscale.min.css" rel="stylesheet">
+
+    <!--Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!--Custom CSS-->
+    <link href="css/dice_roller.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+
+
+    <form method="post" class="table-striped table table-bordered">
+        <table>
+            <tr>
+                <th>Die</th>
+                <th>Nbr</th>
+                <th>Roll</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td><text>D4</text></td>
+                <td><input type="number"></td>
+                <td><button>Roll</button></td>
+                <td><textarea class="result" placeholder="Result" readonly="true"></textarea></td>
+            </tr>
+            <tr>
+                <td><text>D6</text></td>
+                <td><input type="number"></td>
+                <td><button>Roll</button></td>
+                <td><textarea class="result" placeholder="Result" readonly="true"></textarea></td>
+            </tr>
+            <tr>
+                <td><text>D8</text></td>
+                <td><input type="number"></td>
+                <td><button>Roll</button></td>
+                <td><textarea class="result" placeholder="Result" readonly="true"></textarea></td>
+            </tr>
+            <tr>
+                <td><text>D10</text></td>
+                <td><input type="number"></td>
+                <td><button>Roll</button></td>
+                <td><textarea class="result" placeholder="Result" readonly="true"></textarea></td>
+            </tr>
+            <tr>
+                <td><text>D12</text></td>
+                <td><input type="number"></td>
+                <td><button>Roll</button></td>
+                <td><textarea class="result" placeholder="Result" readonly="true"></textarea></td>
+            </tr>
+            <tr>
+                <td><text>D20</text></td>
+                <td><input type="number"></td>
+                <td><button>Roll</button></td>
+                <td><textarea class="result" placeholder="Result" readonly="true"></textarea></td>
+            </tr>
+            <tr>
+                <td><text>D100</text></td>
+                <td><input type="number"></td>
+                <td><button>Roll</button></td>
+                <td><textarea class="result" placeholder="Result" readonly="true"></textarea></td>
+            </tr>
+        </table>
+    </form>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<!-- jQuery -->
+<script src="grayscale/vendor/jquery/jquery.js"></script>
+
+<!--Custom JS-->
+<script type="text/javascript" src="js/dice_roller.js"></script>
+
+</html>

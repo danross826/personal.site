@@ -1,6 +1,6 @@
 
 a{
-    display: block;
+    display: inline-block;
     overflow: scroll;
 }
 body{
@@ -32,50 +32,24 @@ textarea{
 h6{
     color:white;
 }
-
-.numberoperator{
-    appearance: button;
-    border: thick;
-    -moz-appearance: button;
-    -webkit-appearance: button;
-    text-decoration: none;
-    font: menu;
-    color: ButtonText;
-    display: inline-block;
-    padding: 2px 8px;
-    font-size: 2em;
-    height: 2em;
+.btn-primary{
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 2em;
+    font-size: 1em;
     width: 2em;
-    min-height: 2em;
-    min-width: 2em;
+    align-items: center;
+    justify-content: center;
 }
-.number{
-    position: relative;
-    right: 22px;
-    width: 7em;
-}
-
-#display{
-    position: relative;
-    right: 1em;
+.customWidth{
+    width: 95%;
 }
 #titles{
     display: flex;
     flex-direction: row;
 }
-#disp2{
-    width: 5em;
-    position: relative;
-    right:6px;
-}
 #alternateNotations{
     width: 19em;
 }
-#btnrpn{
-    font-size: 2em;
-    padding: 2px 0px;
-}
-#btnhex{
-    font-size: 2em;
-    padding: 2px 0px;
-}
+
